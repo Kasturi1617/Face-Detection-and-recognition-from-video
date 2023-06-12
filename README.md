@@ -1,7 +1,7 @@
 # Face-Detection-and-recognition-from-video
 This project aims to develop an efficient and accurate computer vision system capable of detecting and recognizing multiple human faces in images and videos. It uses Yolov4 object detection algorithm and the darknet neural network framework, to achieve real-time performance. 
 
-# Proposed method: using YOLOv4
+## Proposed method: using YOLOv4
 
 * A famous deep learning based model YOLOv4 is used for face detection.
 * It is the fourth version in the You Only Look Once family of models.
@@ -24,5 +24,31 @@ III. Head: The main function of face detection which is locating bounding boxes 
 
 ![image](https://github.com/Kasturi1617/Face-Detection-and-recognition-from-video/assets/96917574/b9823f90-1da1-4b59-9093-f70cd33d24d9)
 
+## Backbone network used:
+
+* Popular backbone networks for YOLOv4 algorithm are: CSPResNext50, CSPDarknet53 and EfficientNetB3. In this project, CSPDarknet53 CNN is used.
+* The darknet architecture is a deep learning library written in C and CUDA, optimized for speed and efficiency. 
+* It provides the backbone for YOLOv4 and other YOLO variants.
+* darknet is used to construct and train YOLO models, enabling real-time object detection on various platforms, including CPUs and GPUs.
+* CSPDarknet53 consists of two blocks: 
+  Convolutional Base Layer
+  Cross Stage Partial(CSP) block.
+* darknet is a very flexible research framework written in low level languages and has produced a series of the best realtime object detectors in computer vision: YOLO, YOLOv2, YOLOv3, and now, YOLOv4.
+
+## Bounding box:
+
+* Bounding box refers to a rectangular region that is drawn around the face of a person in an image or a video frame. It is used to localize and identify the face.
+* YOLOv4 utilizes bounding boxes to represent the detected faces in its output. 
+
+* Each bounding box is defined by four parameters:
+  The coordinates of the middle point (x,y)
+  The width(w) of the box
+  The height(h) of the box.
+
+* These parameters are usually normalized with respect to the dimensions of the image or frame.
+
+By using bounding boxes, YOLOv4 can detect multiple faces within a single image and it also provide precise localization information.
+
+![image](https://github.com/Kasturi1617/Face-Detection-and-recognition-from-video/assets/96917574/8cc6c82b-78ae-4e18-b6c6-742a90fb4ba3)
 
 

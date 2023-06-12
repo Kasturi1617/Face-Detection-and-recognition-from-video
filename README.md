@@ -59,6 +59,30 @@ By using bounding boxes, YOLOv4 can detect multiple faces within a single image 
 
 ## Step by step breakdown of the problem:
 
-[image](https://github.com/Kasturi1617/Face-Detection-and-recognition-from-video/assets/96917574/837bc7db-879d-448b-b166-521df989720d)
+### For face detection:
+
+* Pre-process: At first, the WIDER FACE dataset is preprocessed and annotation file is madde according to the YOLOv4 format. 
+* Train: Next step is to train the YOLOv4 model on the WIDER FACE dataset.
+* Face detection: Test the model on the required video.
+
+### For face recognition:
+
+* Extract Frames: Frames per second from the video is extracted.
+* Pre-process the newly prepared data: Create annotation file for the extracted images using the trained YOLOv4 model.
+* Group faces: Group the faces of same person using python face_recognition module. 
+* Train: The YOLOv4 model is again trained on the newly prepared dataset.
+* Face recognition: Finally, the model is tested on the same video again for recognizing faces of distinct persons accurately.
+
+## Results:
+
+The training and testing is done with different splits of the datasets.
+
+![image](https://github.com/Kasturi1617/Face-Detection-and-recognition-from-video/assets/96917574/adff6da2-b6cf-4dff-b338-27a3a2a290ea)
+![image](https://github.com/Kasturi1617/Face-Detection-and-recognition-from-video/assets/96917574/b4132268-d1cc-430f-a982-69f02380ade5)
+
+### Face detection results on WIDER FACE 70-30 split:
+
+![image](https://github.com/Kasturi1617/Face-Detection-and-recognition-from-video/assets/96917574/765aecfc-6681-4c74-b536-936fefd045bd)
+![image](https://github.com/Kasturi1617/Face-Detection-and-recognition-from-video/assets/96917574/80389fef-6b52-4bbe-a9b7-2ef14a4a6770)
 
 

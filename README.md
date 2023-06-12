@@ -12,6 +12,17 @@ This project aims to develop an efficient and accurate computer vision system ca
 * YOLOv4 can detect more than one faces in an image accurately.
 * YOLOv4 model is known for its high accuracy, speed and flexibility. 
 * YOLO is based on a single Convolutional Neural Network (CNN)
-![image](https://github.com/Kasturi1617/Face-Detection-and-recognition-from-video/assets/96917574/7ad2c4a4-5e2a-49cf-a049-d29bc789fac9)
- 
+
+## YOLOv4 architecture and working:
+
+YOLOv4 architecture mainly consists of three parts:
+I. Backbone: "backbone" is initial part of the neural network that is responsible for extracting high-level features from the input data. It is typically a convolutional neural network (CNN) architecture that performs the initial processing of the input data, capturing low-level and mid-level features.
+
+II. Neck: the "neck" refers to the intermediate component of the architecture that connects the backbone network to the detection head. It collects feature maps from different stages of the backbone and then mixes and combines them to prepare for the next step.
+
+III. Head: The main function of face detection which is locating bounding boxes and performing classification, is performed by head.
+
+![image](https://github.com/Kasturi1617/Face-Detection-and-recognition-from-video/assets/96917574/b9823f90-1da1-4b59-9093-f70cd33d24d9)
+
+
 

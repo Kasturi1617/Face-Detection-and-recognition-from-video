@@ -85,4 +85,30 @@ The training and testing is done with different splits of the datasets.
 ![image](https://github.com/Kasturi1617/Face-Detection-and-recognition-from-video/assets/96917574/765aecfc-6681-4c74-b536-936fefd045bd)
 ![image](https://github.com/Kasturi1617/Face-Detection-and-recognition-from-video/assets/96917574/80389fef-6b52-4bbe-a9b7-2ef14a4a6770)
 
+![image](https://github.com/Kasturi1617/Face-Detection-and-recognition-from-video/assets/96917574/6913fc9a-e019-47d0-bfe7-2e35fa7f31b6)
+![image](https://github.com/Kasturi1617/Face-Detection-and-recognition-from-video/assets/96917574/c1a0f5e6-4768-4360-8539-381e8fe1559c)
+
+### Face recognition results on video:
+
+![image](https://github.com/Kasturi1617/Face-Detection-and-recognition-from-video/assets/96917574/b3d8ec5b-eb64-4f58-b471-b77cb5c01ee1)
+
+![image](https://github.com/Kasturi1617/Face-Detection-and-recognition-from-video/assets/96917574/e6e68d0f-068c-4d39-8092-f0277e8c8dcf)
+
+## Challenges faced:
+
+* Wrong or missing annotation files
+* Limited amount of data
+* Privacy concerns ; ethical data collection
+* Variability in facial expressions and poses
+* Limited GPU memory
+
+## Conclusion:
+
+* A face detection and recognition project using YOLOv4 can be challenging. But with proper data, pre-processing the data and fine-tuning the model, it is possible to achieve robust performance. 
+* It is important to consider the ethical implications of face recognition and detection and implement appropriate safeguards to protect privacy.
+* Overall, face detection and recognition can have many useful applications such as security systems, access control using face etc.
+* This project can further be extended to detect emotions, facial expressions and develop more accurate and efficient models.
+
+
+
 

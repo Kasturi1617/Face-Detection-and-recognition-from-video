@@ -49,6 +49,16 @@ III. Head: The main function of face detection which is locating bounding boxes 
 
 By using bounding boxes, YOLOv4 can detect multiple faces within a single image and it also provide precise localization information.
 
-![image](https://github.com/Kasturi1617/Face-Detection-and-recognition-from-video/assets/96917574/8cc6c82b-78ae-4e18-b6c6-742a90fb4ba3)
+## Dataset Used:
+
+![image](https://github.com/Kasturi1617/Face-Detection-and-recognition-from-video/assets/96917574/78443b65-573b-41b9-bb0c-d47140595b8d)
+
+## Video dataset used:
+
+![image](https://github.com/Kasturi1617/Face-Detection-and-recognition-from-video/assets/96917574/c1cbc2a8-f729-4987-90b5-2153926e14dd)
+
+## Step by step breakdown of the problem:
+
+[image](https://github.com/Kasturi1617/Face-Detection-and-recognition-from-video/assets/96917574/837bc7db-879d-448b-b166-521df989720d)
 
 
